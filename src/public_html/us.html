@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title></title>
+
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+   
+   <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	
+
+
+</head>
+</head>
+<body style="padding-top: 220px;">
+        <div>
+            <nav class="navbar navbar-default" id="navi" >
+                <img id="mag" src="OFFICIALLOGO.JPG" style="border-radius: 50%; float: left; width: 15%;height: 15%;">
+                <style type="text/css">
+                </style>
+                <h1 style="text-align: center; font-size: auto; text-decoration-style: bold; color: #ffffff; padding-left: 40px;">INTERNET HEALTH NEPAL</h1>
+                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+                <style>
+                    *{margin:0px; padding:0px; font-family:Helvetica, Arial, sans-serif;}
+                    body{
+                    background-color: #51504f;
+                    font: sans-serif;
+                    }
+                    h1{
+                    text-align: center;
+                    }
+                    #navi {
+                    position: fixed;
+                    left:0;
+                    right: 0;
+                    top:0;
+                    z-index: 10;
+                    background: #2e353d;
+                    border: none;
+                    border-radius: 0px;
+                    }
+                    input:hover,
+                    .btn:hover {
+                    opacity: 1;
+                    }
+                    .nav-side-menu {
+                    top:202px;
+                    }
+                    button {
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 14px 20px;
+                    margin: 8px 26px;
+                    border: none;
+                    cursor: pointer;
+                    width: 90%;
+                    font-size:20px;
+                    }
+                    button:hover {
+                    opacity: 0.8;
+                    }
+                    /* Center the image and position the close button */
+                    .imgcontainer {
+                    text-align: center;
+                    margin: 24px 0 12px 0;
+                    position: relative;
+                    }
+                    .avatar {
+                    width: 200px;
+                    height:200px;
+                    border-radius: 50%;
+                    }
+                    .imgg{
+                    width: 80%;
+                    height:10%;
+                    margin-left: 15%;
+                    margin-bottom: 0.1%;
+                    margin-top: 0.1%;
+                    }
+                    h1{
+                    color: #2F4F4F;
+                    height: 80px;
+                    }
+                    /* The Modal (background) */
+                    .modal {
+                    display:none;
+                    position: fixed;
+                    z-index: 1;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(50,100,100,0.4);
+                    }
+                    /* Modal Content Box */
+                    .modal-content {
+                    background-color: rgba(100,150,150,0.8);
+                    margin: 4% auto 15% auto;
+                    border: 1px solid #888;
+                    width: 70%;
+                    padding-bottom: 30px;
+                    }
+                    /* The Close Button (x) */
+                    .close {
+                    position: absolute;
+                    right: 25px;
+                    top: 0;
+                    color: #000;
+                    font-size: 35px;
+                    font-weight: bold;
+                    }
+                    .close:hover,.close:focus {
+                    color: red;
+                    cursor: pointer;
+                    }
+                    /* Add Zoom Animation */
+                    .animate {
+                    animation: zoom 0.5s
+                    }
+                    @keyframes zoom {
+                    from {transform: scale(0)} 
+                    to {transform: scale(1)}
+                    }</style>
+<body style="background-color:white;">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<button class="btn btn-success" onclick="document.getElementById('modal-wrapper').style.display = 'block'" style="width:200px; margin-top:0%; float: right;">
+LOGIN</button>
+
+<div id="modal-wrapper" class="modal">
+  
+  <form class="modal-content animate">
+        
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+      
+      <h1 style="text-align:center" >LOGIN</h1>
+    </div>
+
+    <div class="container" style="box-shadow: rgba(50,60,10,900);">
+
+       <div>
+       	  <style >
+
+
+ 
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 200;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+.col {
+ 
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="col">
+        <a href="https://www.facebook.com/" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+       </div>
+  
+          <div>
+          	<style>
+	
+
+  .btn2 {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 55.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+  .google {
+  background-color: #dd4b39;
+  color: white;
+}
+.col {
+ 
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+    
+  }
+  
+</style>
+<body>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <div class="col">
+	<a href="https://www.gmail.com" class="google btn2"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+        </div>
+
+          </div>
+    
+    
+  </form>
+</div>
+  
+</div>
+</div>
+
+	</nav>
+</div>
+</div>
+<div>
+<div class="nav-side-menu">
+    <div class="brand" style="width: 100%">INTERNET HEALTH NEPAL</div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+    <div class="menu-list">
+        <ul id="menu-content" class="menu-content collapse out">
+            <li data-toggle="collapse" data-target="#service" class="collapsed">
+                <a href="index.html"><i class="fa fa-globe fa-lg"></i> Internet Speed Test </a>
+            </li>
+            <li data-toggle="collapse" data-target="#service" class="collapsed">
+                <a href="us.html"><i class="fa fa-globe fa-lg"></i> About Us </a>
+            </li>
+            <!--</li>
+            <ul class="sub-menu collapse" id="products">
+                <li class="active"><a href="#">CSS3 Animation</a></li>
+                <li><a href="#">General</a></li>
+                <li><a href="#">Buttons</a></li>
+                <li><a href="#">Tabs &amp; Accordions</a></li>
+                <li><a href="#">Typography</a></li>
+                <li><a href="#">FontAwesome</a></li>
+                <li><a href="#">Slider</a></li>
+                <li><a href="#">Panels</a></li>
+                <li><a href="#">Widgets</a></li>
+                <li><a href="#">Bootstrap Model</a></li>
+            </ul>-->
+            <li data-toggle="collapse" data-target="#service" class="collapsed">
+                <a href="privacy.html"><i class="fa fa-globe fa-lg"></i> Privacy Policy </a>
+            </li>
+            <!--<ul class="sub-menu collapse" id="service">
+                <li>New Service 1</li>
+                <li>New Service 2</li>
+                <li>New Service 3</li>
+            </ul>-->
+
+
+            <li data-toggle="collapse" data-target="#new" class="collapsed">
+                <a href="#"><i class="fa fa-globe fa-lg"></i> Feedback Forum </a>
+            </li>
+           <!-- <ul class="sub-menu collapse" id="new">
+                <li>New New 1</li>
+                <li>New New 2</li>
+                <li>New New 3</li>
+            </ul>-->
+            <!--<li>
+                <a href="#">
+                    <i class="fa fa-user fa-lg"></i> Profile
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-users fa-lg"></i> Users
+                </a>
+            </li>-->
+        
+    </div>
+    <style >
+    	.nav-side-menu {
+  overflow: auto;
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: 200;
+  background-color: #2e353d;
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  float: top;
+  padding-top: 0;
+  color: #e1ffff;
+}
+
+.nav-side-menu .brand {
+  padding-top: 0;
+  background-color: #23282e;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+.nav-side-menu .toggle-btn {
+  display: none;
+}
+.nav-side-menu ul,
+.nav-side-menu li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 35px;
+  cursor: pointer;
+  /*    
+    .collapsed{
+       .arrow:before{
+                 font-family: FontAwesome;
+                 content: "\f053";
+                 display: inline-block;
+                 padding-left:10px;
+                 padding-right: 10px;
+                 vertical-align: middle;
+                 float:right;
+            }
+     }
+*/
+}
+.nav-side-menu ul :not(collapsed) .arrow:before,
+.nav-side-menu li :not(collapsed) .arrow:before {
+  font-family: FontAwesome;
+  content: "\f078";
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  float: right;
+}
+.nav-side-menu ul .active,
+.nav-side-menu li .active {
+  border-left: 3px solid #d19b3d;
+  background-color: #4f5b69;
+}
+.nav-side-menu ul .sub-menu li.active,
+.nav-side-menu li .sub-menu li.active {
+  color: #d19b3d;
+}
+.nav-side-menu ul .sub-menu li.active a,
+.nav-side-menu li .sub-menu li.active a {
+  color: #d19b3d;
+}
+.nav-side-menu ul .sub-menu li,
+.nav-side-menu li .sub-menu li {
+  background-color: #181c20;
+  border: none;
+  line-height: 28px;
+  border-bottom: 1px solid #23282e;
+  margin-left: 0px;
+}
+.nav-side-menu ul .sub-menu li:hover,
+.nav-side-menu li .sub-menu li:hover {
+  background-color: #020203;
+}
+.nav-side-menu ul .sub-menu li:before,
+.nav-side-menu li .sub-menu li:before {
+  font-family: FontAwesome;
+  content: "\f105";
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.nav-side-menu li {
+  padding-left: 0px;
+  border-left: 3px solid #2e353d;
+  border-bottom: 1px solid #23282e;
+}
+.nav-side-menu li a {
+  text-decoration: none;
+  color: #e1ffff;
+}
+.nav-side-menu li a i {
+  padding-left: 10px;
+  width: 20px;
+  padding-right: 20px;
+}
+.nav-side-menu li:hover {
+  border-left: 3px solid #d19b3d;
+  background-color: #4f5b69;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+@media (max-width: 767px) {
+  .nav-side-menu {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .nav-side-menu .toggle-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10 !important;
+    padding: 3px;
+    background-color: #ffffff;
+    color: #000;
+    width: 40px;
+    text-align: center;
+  }
+  .brand {
+    text-align: left !important;
+    font-size: 22px;
+    padding-left: 20px;
+    line-height: 50px !important;
+  }
+}
+@media (min-width: 767px) {
+  .nav-side-menu .menu-list .menu-content {
+    display: block;
+  }
+  #main {
+  	width:calc(100% - 300px);
+  	float: right;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#navi{
+  background-color: #6c2ca0;
+  font-size: 40px;
+  height: %;
+}
+    </style>
+</div>
+<body>
+	<h1 style="font-size: 60px; font-style: bold; text-align: center;">Our Team</h1>
+	<style>
+		img{
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+	
+}
+
+p{
+	font-size: 40px;
+	text-align: center;
+}
+	</style>
+
+	<table>
+		<ul>
+			<li>
+				<img style="margin-left: 30%" src="satyendra_sir.jpg" >
+				<p>Satyendra Nath Lohani</p>
+				<p>Lecturer, Department of Computer Science and Engineering</p>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<img style="margin-left: 30%" src="roshan.jpg">
+				<p>Roshan Bhandari</p>
+				<p>Computer Science Student</p>
+				<p>Kathmandu University</p>
+			</li>
+			<li>
+				<img style="margin-left: 30%" src="yogesh.jpg">
+				<p>Yogesh Bhandari</p>
+				<p>Computer Science Student</p>
+				<p>Kathmandu University</p>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<img style="margin-left: 30%" src="murari.jpg">
+				<p>Murari Gupta</p>
+				<p>Computer Science Student</p>
+				<p>Kathmandu University</p>
+			</li>
+			<li>
+				<img style="margin-left: 30%" src="anish.jpg">
+				<p>Anish Poudel</p>
+				<p>Computer Science Student</p>
+				<p>Kathmandu University</p>
+			</li>
+			<li>
+				<img style="margin-left: 30%" src="suraj.jpg">
+				<p>Suraj Kumar Sah</p>
+				<p>Computer Science Student</p>
+				<p>Kathmandu University</p>
+			</li>
+		</ul>
+	</table>
+
+</body>
+
+         
+
+</body>
+</html>

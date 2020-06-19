@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>sidebar</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="hunxa.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--THIS IS THE TOP NAVIGATION SECTION-->
+        <div>
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:rgb(86, 61, 124);" style="margin-top:0px;">
+                        <div class="container-fluid">
+                            
+                            <a class="navbar-brand" href="http://www.internethealthnepal.com"><img src="ihn.jpg" width="70px" height="70px" /></a>
+                            <a class="navbar-brand" href="#">Internet Health Nepal</a>
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="navbar-collapse collapse" id="navbarColor01" style="">
+                            <ul class="navbar-nav mr-auto">
+
+                            </ul>
+
+
+
+                            <!--link ko lagi chhai <a href="#" role = "button" class="btn btn-primary">button href</a>-->
+                            <style>
+*{margin:0px; padding:0px; font-family:Helvetica, Arial, sans-serif;}
+
+
+body{
+    background-color: #51504f;
+    font: sans-serif;
+
+
+
+}
+
+h1{
+    text-align: center;
+   
+
+}
+#navi{
+  background-color: #2e353d;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.avatar {
+    width: 200px;
+  height:200px;
+    border-radius: 50%;
+}
+
+
+.imgg{
+    width: 80%;
+    height:10%;
+    margin-left: 15%;
+    margin-bottom: 0.1%;
+    margin-top: 0.1%;
+  }
+
+h1{
+    color: #2F4F4F;
+    height: 80px;
+}
+/* The Modal (background) */
+.modal {
+  display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(50,100,100,0.4);
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: rgba(100,150,150,0.8);
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 70%;
+  padding-bottom: 30px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.5s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+</style>
+                            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+                              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                            <button class="btn btn-primary my-2 my-sm-0" onclick="document.getElementById('modal-wrapper').style.display = 'block'" style="float: right;">login</button>
+                            <div id="modal-wrapper" class="modal">
+  
+  <form class="modal-content animate">
+        
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+      
+      <h1 style="text-align:center" >LOGIN</h1>
+    </div>
+
+    <div class="container" style="box-shadow: rgba(50,60,10,900);">
+
+       <div>
+          <style >
+
+
+ /*
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 200;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */ /*
+}*/
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+.col {
+ 
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="col">
+        <a href="https://www.facebook.com/" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+       </div>
+  
+          <div>
+            <style>
+    
+
+  .btn2 {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 55.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+  .google {
+  background-color: #dd4b39;
+  color: white;
+}
+.col {
+ 
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+    
+  }
+  
+</style>
+<body>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <div class="col">
+    <a href="https://www.gmail.com" class="google btn2"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+        </div>
+
+          </div>
+    
+    
+  </form>
+</div>
+
+                            </div>
+                    </nav>
+             </div>
+    
+    <!--THIS IS THE SIDENAV AND CONTENT SECTION-->
+
+    <div style="">
+
+        <!--THIS IS THE SIDE NAVIGATION SECTION-->
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" style="margin-top:95px;">
+            <div class="sidebar-header">
+                
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fas fa-align-left"></i>
+                            <span></span>
+                        </button>
+                        
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="http://internethealthnepal.com">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-briefcase"></i>
+                        About Us
+                    </a>
+                    <a href="#pageSubmenu">
+                        <i class="fas fa-user-secret"></i>
+                        Privacy Policy
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--THIS IS THE PAGE CONTENT SECTION-->
+        <body style="background-color:thistle;">
+
+        <div class="container-fluid">
+                <div class="row">
+          
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-left: 15%; margin-right: 40%; margin-top: 5%; ">
+                      <br />
+                      <div class="card-group" style="max-height: 410px;">
+
+                        <div class="card text-white bg-info mb-3" style="max-width: 18rem; margin-left: 15% ">
+                                <img style="height: 280px;" src="satyendra_sir.jpg" class="card-img-top" alt="Card image" />
+                                <div class="card-body">
+                                  <h5 class="card-title" style="text-align: center;">Satyendra Nath Lohani</h5>
+                                  <p class="card-text" style="color: black; text-align: center;">Department of Computer Science and Engineering.</p>
+                                </div>
+                              </div>
+                    </div>
+                 </div>
+        </div>
+                    
+
+
+
+        <div class="container-fluid">
+                <div class="row">
+          
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-left:20%; margin-right: 30%;">
+                      <br />
+                      <div class="card-group" style="max-height: 400px;">
+
+                            <div class="card text-white bg-info mb-3" style="max-width: 18rem; margin-bottom: 25%;">
+                                    <img style="height: 280px;" src="yogesh.jpg" class="card-img-top" alt="Card image" />
+                                    <div class="card-body text-center">
+                                      <h5 class="card-title">Yogesh Bhandari</h5>
+                                      <p class="card-text" style="color: black;">Computer Science Student, Kathmandu University</p>
+                                    </div>
+                                  </div>
+            
+                            <div class="card text-white bg-info mb-3" style="max-width: 18rem; margin-left: 5%; margin-bottom: 25%;">
+                                    <img style="height: 270px;" src="suraj.jpg" class="card-img-top" alt="Card image" />
+
+                                    <div class="card-body text-center">
+                                      <h5 class="card-title">Suraj Kumar Sah</h5>
+                                      <p class="card-text" style="color: black;">Computer Science Student, Kathmandu University</p>
+                                    </div>
+                                  </div>
+                                  
+                        </div>
+                        </div>
+                 </div>
+         </div>
+
+
+        <div class="container-fluid">
+                <div class="row">
+          
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="margin-left:7%; margin-right: 10%;">
+                      <br />
+                      <div class="card-group" style="max-height: 400px;">
+                        <div class="card text-white bg-info mb-3" style="max-width: 18rem; margin-left: 5%; margin-bottom: 25%;">
+                                    <img style="height: 270px;" src="murari.jpg" class="card-img-top" alt="Card image" />
+                                    <div class="card-body text-center">
+                                      <h5 class="card-title">Murari Kumar Gupta</h5>
+                                      <p class="card-text" style="color: black;">Computer Science Student, Kathmandu University</p>
+                                    </div>
+                                  </div>
+            
+                            <div class="card text-white bg-info mb-3" style="max-width: 18rem; margin-left: 5%; margin-bottom: 25%;">
+                                    <img style="height: 270px;" src="anish.jpg" class="card-img-top" alt="Card image" />
+
+                                    <div class="card-body text-center">
+                                      <h5 class="card-title">Anish Poudel</h5>
+                                      <p class="card-text" style="color: black;">Computer Science Student, Kathmandu University</p>
+                                    </div>
+                                  </div>
+
+            
+                                  <div class="card text-white bg-info mb-3" style="max-width: 18rem; margin-left: 5%; margin-bottom: 25%;">
+                                        <img style="height: 270px;" src="roshan.jpg" class="card-img-top" alt="Card image" />
+                                        <div class="card-body text-center">
+                                          <h5 class="card-title">Roshan Bhandari</h5>
+                                          <p class="card-text" style="color: black;">Computer Science Student, Kathmandu University</p>
+                                        </div>
+                                      </div>
+
+                            
+                        </div>
+                        <style >
+                          .card-body{
+                            overflow: scroll;
+                          }
+                        </style>
+            
+                      
+                  </div>
+                </div>
+          </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+ <div>
+            <footer>copyright &#169; All rights reserved. INTERNET HEALTH NEPAL</footer>
+            <style >
+              footer{
+                background-color: silver;
+                width: 100%;
+              }
+            </style>
+      </div>
+      
+
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+    
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                
+            });
+        });
+
+        
+    </script>
+
+</html>
